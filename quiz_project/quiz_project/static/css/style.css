@@ -1,0 +1,117 @@
+/* ------------------ General Layout ------------------ */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ------------------ Header ------------------ */
+header.navbar {
+    background-color: #343a40;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #adb5bd !important;
+}
+
+/* ------------------ Main Content ------------------ */
+main {
+    padding-top: 30px;
+}
+
+/* ------------------ Form Section ------------------ */
+form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0b5ed7;
+}
+
+/* ------------------ Generated Questions Section ------------------ */
+h2 {
+    margin-top: 30px;
+    color: #343a40;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 6px;
+}
+
+.question-output {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+/* ------------------ Responsive ------------------ */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+}
+
+/* Title on Download Page */
+.page-title {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #343a40;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Quiz download list */
+.quiz-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quiz-list li {
+    margin-bottom: 12px;
+}
+
+.quiz-link {
+    text-decoration: none;
+    background-color: #f1f3f5;
+    padding: 10px 16px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    color: #0d6efd;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.quiz-link:hover {
+    background-color: #e2e6ea;
+    color: #084298;
+}

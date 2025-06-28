@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz App</title>
+    <link href="{% static 'css/dashboard.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+</head>
+<body>
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand mx-auto" href="/">Quiz App</a>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+                <div class="position-sticky pt-3 sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">
+                                Questions Generator
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/history">
+                                My Quiz
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <h1 class="page-title">Download Quiz</h1>
+                <ul class="quiz-list">
+                    {% for test in data %}
+                        <li>
+                            <a href="/download/{{ test.0 }}" class="quiz-link">{{ test.1 }}</a>
+                        </li>
+                    {% empty %}
+                        <li>No quizzes available yet.</li>
+                    {% endfor %}
+                </ul>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+## Education in 20 Centuries: A Practice Text
+
+The 20th and 21st centuries witnessed a dramatic expansion of access to education globally.  Prior to the 20th century, formal education was largely the privilege of the elite, often confined to religious institutions or wealthy families. The rise of nation-states and industrialization spurred a demand for a more educated workforce, leading to the growth of public schooling systems.  This shift saw a significant increase in literacy rates and the development of standardized curricula.  However, inequalities persisted, with disparities in access based on factors like gender, race, and socioeconomic status.  In the latter half of the 20th century, the focus shifted towards comprehensive education, emphasizing the importance of secondary and tertiary education.  Technological advancements in the 21st century, particularly the internet and digital technologies, have revolutionized the landscape of education, leading to online learning platforms, personalized learning experiences, and a greater emphasis on global collaboration.  Despite these advancements, challenges remain, including ensuring equitable access to quality education for all and adapting curricula to the rapidly evolving needs of a globalized world.
+
+**Multiple Choice Questions:**
+
+1. Before the 20th century, formal education was primarily accessible to:
+    a) The general population
+    b) The middle class
+    c) The elite
+    d) Women only
+Answer: C
+
+2. What major societal shift fueled the expansion of public schooling in the 20th century?
+    a) The rise of agriculture
+    b) The decline of religion
+    c) The rise of nation-states and industrialization
+    d) The increase in leisure time
+Answer: C
+
+3. What factor is NOT mentioned as contributing to inequalities in access to education?
+    a) Gender
+    b) Race
+    c) Geographic location
+    d) Socioeconomic status
+Answer: C
+
+
+4.  A key focus in the latter half of the 20th century in education was:
+    a) Religious instruction
+    b) Vocational training exclusively
+    c) Comprehensive education, including secondary and tertiary levels
+    d) Limiting access to higher education
+Answer: C
+
+
+5. What technological advancement is highlighted as revolutionizing 21st-century education?
+    a) The printing press
+    b) The telephone
+    c) The internet and digital technologies
+    d) The telegraph
+Answer: C
+
+
+6.  Which of the following is NOT a challenge mentioned in relation to modern education?
+    a) Ensuring equitable access to quality education
+    b) Adapting curricula to a changing world
+    c) The decline of traditional teaching methods
+    d)  Maintaining relevance in a globalized world
+Answer: C

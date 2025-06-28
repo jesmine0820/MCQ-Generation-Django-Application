@@ -1,0 +1,73 @@
+/* ------------------ Sidebar Layout ------------------ */
+#sidebarMenu {
+    position: fixed;
+    top: 68px;
+    bottom: 0;
+    left: 0;
+    width: 220px; 
+    z-index: 100;
+    background-color: #212529;
+    padding-top: 1rem;
+    color: white;
+    overflow-y: auto;
+}
+
+/* ------------------ Sidebar Sticky Behavior ------------------ */
+.sidebar-sticky {
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 60px);
+    padding-top: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* ------------------ Sidebar Links ------------------ */
+.nav-link {
+    display: block;
+    color: #adb5bd;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 4px;
+    transition: all 0.2s ease;
+}
+
+#sidebarMenu .nav-link:hover,
+#sidebarMenu .nav-link.active {
+    color: #ffffff;
+    background-color: #343a40;
+    border-left: 4px solid #0d6efd;
+}
+
+/* Optional: Sidebar icons */
+.nav-link span {
+    margin-right: 10px;
+}
+
+/* ------------------ Main Content Adjustments ------------------ */
+main {
+    margin-left: 220px;
+    padding: 2rem 2rem;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+/* ------------------ Responsive Sidebar ------------------ */
+@media (max-width: 768px) {
+    #sidebarMenu {
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    main {
+        margin-left: 0;
+        padding: 1rem;
+    }
+}
+
+/* ------------------ Optional Dark Mode ------------------ */
+[data-bs-theme="dark"] .navbar {
+    background-color: #1a1a1a;
+}
