@@ -1,3 +1,5 @@
+Resource: https://youtu.be/lucFygsnlgM?si=jXvdELAvn5SWS1Cx
+
 1. Create new environment
 conda create -p env python-3.12 -y
 
